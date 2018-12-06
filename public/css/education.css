@@ -1,0 +1,306 @@
+.EducationWrapperCntr .nav-tabs>li a{ border: 1px solid #01A9DB;}
+.EducationWrapperCntr .nav-tabs>li.active a{ background-color: #01A9DB;}
+.EducationWrapperCntr .nav-tabs>li a i{ margin-right: 5px;}
+.EducationWrapperCntr .nav-tabs>li a span{ margin-left: 5px;}
+.EducationWrapperCntr .nav-tabs>li a span.glyphicon{ top: 2px; line-height: 1.1;}
+.EducationWrapperCntr .supervisor-form-container{ border-top: 0;}
+.universityTabSection{ padding: 30px; width: 100%; position: relative;}
+.universityTypeBlock .university_type{ font-family: 'latobold_italic'; font-size: 14px; margin-bottom: 0; line-height: 34px; vertical-align: middle; margin-right: 10px;}
+.universityTypeBlock .btn-group label{
+	    background-color: #fff;
+	    color: #01A9DB;
+	    border: 1px solid #01A9DB;
+	    outline: none;
+	    font-size: 13px;
+	    padding: 6px 8px;
+}
+.universityTypeBlock .btn-group label.active{
+	background-color: #01A9DB;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.universityTypeBlock .btn-group label.focus{
+	outline: none;
+}
+.height155{ height: 155px;}
+.height210{ height: 210px;}
+.height230{ height: 230px;}
+.height350{ height: 350px;}
+.height405{ height: 405px;}
+.height750{ height: 750px;}
+.height900{ height: 900px;}
+.height715{ height: 715px;}
+.height774{ height: 774px;}
+.height896{ height: 896px;}
+
+.add-item-box{ 
+	position: relative;
+	margin-bottom: 10px;
+}
+.add-item-box:last-child{
+	margin-bottom: 0;
+}
+.add-item-box .add-icon{
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	font-size: 20px;
+	color: #217DD0;
+	padding: 5px 10px;
+	background: #fff;
+}
+.add-item-box .minus-icon{
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	font-size: 20px;
+	color: #217DD0;
+	padding: 5px 10px;
+	background: #fff;
+}
+.add-item-box .add-icon:hover{ color: #23527c;}
+
+
+.universityNameBlock, .refreeDetailsCntr, .accreditationCntr{padding: 15px; border: 1px solid #ccc;}
+.universityNameBlock label.block span{ font-size: 18px;}
+/*.universityNameBlock .mCSB_inside > .mCSB_container{ margin-right: 25px;}*/
+.add-more{ font-size: 16px; font-family: 'latoitalic'};
+.refreeDetailsCntr{}
+.form-control[disabled], fieldset[disabled] .form-control{
+	background-color: #eee;
+    opacity: 1;
+}
+.uploadExcelFile .fileContainer input[type="file"]{width: 0.1px;height: 0.1px;opacity: 0;overflow: hidden;position: absolute; z-index: -1;}
+.uploadExcelFile .fileContainer label{
+	background-color: #55aadd;
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	padding: 5px 10px;
+	border: 2px solid #55aade;
+	transition: all 0.3s ease;
+	font-weight: 400;
+	cursor: pointer;
+}
+.uploadExcelFile .fileContainer label:hover{background-color: #ffffff;border: 2px solid #55aadd; color: #55aadd;}
+.uploadExcelFile .fileContainer span{
+	font-family: 'latoitalic';
+    font-size: 16px;	
+}
+.universityTypeCntr .form-panel-group.panel-group{ padding: 0;}
+.universityTypeCntr .form-panel-group .panel-default>.panel-heading{
+    background-color: rgba(84, 167, 218, .3) !important;
+    color: #445183;
+    border: 1px solid #445183;
+    padding: 0;
+}
+.universityTypeCntr .form-panel-group .panel-default>.panel-heading .panel-title{
+	font-family: 'latoitalic';
+	font-size: 19px;
+}
+.universityTypeCntr .form-panel-group .panel-default>.panel-heading .panel-title a{
+	padding: 13px 15px;
+}
+.universityTypeCntr .form-panel-group .panel-heading a:after{
+	right: 15px;
+}
+.universityTypeCntr .panel-group .panel-heading+.panel-collapse>.list-group, 
+.universityTypeCntr .panel-group .panel-heading+.panel-collapse>.panel-body{
+	border-top: 0;
+	padding: 15px;
+}
+.universityTypeCntr .form-panel-group .panel-body h4{
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	font-family: 'latomedium_italic';
+	font-weight: 600;
+}
+.refree-child-block, .accreditation-child-block, .course-child-block,
+.parttime-course-child-block, .distance-course-child-block{
+	border-bottom: 1px solid #f2f2f2;
+	margin-bottom: 15px;
+}
+.refree-details-heading{
+	position: relative;
+	background-color: #ccc;
+	color: #333;
+	padding: 11px;
+}
+
+.refree-details-heading .add-icon{
+	position: absolute;
+	top: 0px;
+	right: 1px;
+	font-size: 20px;
+	color: #217DD0;
+	padding: 9px 10px;
+}
+.refree-details-heading .add-icon:hover{ color: #23527c;}
+.refree-details-heading .minus-icon{
+	position: absolute;
+	top: 0px;
+	right: 1px;
+	font-size: 20px;
+	color: #217DD0;
+	padding: 9px 10px;
+}
+.CourseTable table thead tr th{ vertical-align: middle; text-align: center;}
+.CourseTable table thead tr th:first-child{ width: 260px;}
+.CourseTable table thead tr th:nth-child(2){ width: 115px;}
+.CourseTable table thead tr th:nth-child(3){ width: 100px;}
+.CourseTable table thead tr th:nth-child(4){ width: 250px;}
+.CourseTable table thead tr th:nth-child(5){ width: 150px;}
+.CourseTable table thead tr th:nth-child(6){ width: 200px;}
+.CourseTable table thead tr th:last-child{ width: 100px;}
+.CourseTable table thead tr th .custom-parent-Box{
+	min-width: 180px;
+    margin-left: 10px;
+}
+.CourseTable table tbody tr td .inlineBox{
+	display: inline-block;
+	min-width: 140px;
+	width: 140px !important;
+	margin-left: 10px;
+}
+.docs-required-inline{
+	padding: 15px;
+    border: 1px solid #e5e5e5;
+}
+.docs-required-inline .docs-name{
+	border: 1px solid #55aadd;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.docs-required-inline .docs-checkBox{
+	display: inline-block;
+}
+.verificationProcessCntr{
+
+}
+.leftSideBlock, .rightSideBlock{
+	padding: 15px;
+	border: 1px solid #ccc;
+}
+.minheight291{
+	min-height: 291px;
+}
+.custom-radio-dropdown-block .custom-radio-dropdown{
+	width: 100%;
+    text-align: left;
+    border-radius: 0;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    outline: none;
+    height: 42px;
+}
+.custom-radio-dropdown-block .custom-radio-dropdown .caret{
+	position: absolute;
+	top: 43%;
+	right: 10px;
+	border-width: 6px;
+}
+.custom-radio-dropdown-block .custom-radio-dropdown:active{
+	box-shadow: none;
+}
+.custom-radio-dropdown-block .dropdown-menu{
+	width: 100%;
+    border-radius: 0;
+    padding: 10px;
+}
+.custom-radio-dropdown-block .dropdown-menu li{ padding: 5px 8px;}
+.custom-radio-dropdown-block .dropdown-menu li:hover{
+	background-color: #cfe5f4;
+}
+.custom-radio-dropdown-block .dropdown-menu li label{ 
+	margin-bottom: 0;
+	width: 100%;
+}
+.custom-radio-dropdown-block .dropdown-menu li label .custom-radio{
+	margin: -1px 5px -2px 0px;
+}
+.accreditationTable table tbody tr td{
+	text-align: left;
+}
+.accreditationTable table thead tr th:first-child, 
+.accreditationTable table thead tr th:first-child{width: 160px;}
+
+.accreditationTable table thead tr th:nth-child(2), 
+.accreditationTable table thead tr th:nth-child(3){width: 130px;}
+
+.accreditationTable table thead tr th:first-child{width: 160px;}
+.accreditationTable table tbody tr td:first-child .checkbox-inline{
+	display: inline-block;
+}
+.CollegeCourseTable{}
+.CollegeCourseTable table thead tr th .custom-parent-Box{
+	min-width: 150px;
+}
+.CollegeCourseTable table tbody tr td .inlineBox{
+	min-width: 110px;
+	width: 110px !important;
+}
+
+.default-select-dropdown{
+	position: relative;
+	width: 100%;
+}
+.default-select-dropdown select{
+	appearance:none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+}
+.default-select-dropdown .caret-icon{
+	position: absolute;
+	right: 12px;
+	top: 36%;
+	font-size: 12px;
+	color: #a1a1a1;
+}
+.course-type-block h4{
+	font-family: 'latoregular' !important;
+	font-weight: 400 !important;
+}
+
+/* Custom Media Queries */
+@media only screen and (max-width: 1200px){
+	.CourseTable table{ table-layout: fixed;}
+}
+@media only screen and (max-width: 992px){
+	.smallScreenDesign .btn-group label{
+		width: 48%;
+		border-radius: 0;
+		margin: 2px !important;
+	}
+	.universityTypeBlock .btn-group label:first-child{ margin-left: 0;}
+	.universityTypeBlock .btn-group label:last-child{ margin-right: 0;}
+	.uploadExcelFile .fileContainer span{
+		font-size: 12px;
+	}
+	/*.universityNameBlock .mCSB_inside > .mCSB_container{ margin-right: 0;}*/
+}
+@media only screen and (max-width: 767px){
+	.universityNameBlock, .leftSideBlock { margin-bottom: 30px;}
+	.minheight291{min-height: auto;}
+	.EducationWrapperCntr .nav-tabs>li{
+		width: 100%;
+	}.EducationWrapperCntr .nav-tabs>li>a {
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 600px){
+	.universityTypeCntr .form-panel-group .panel-body h4{
+		font-size: 15px;
+		line-height: 20px;
+	}
+}
+@media only screen and (max-width: 480px){
+	.universityTabSection{ padding: 15px;}
+	.smallScreenDesign .btn-group label{ width: 100%;}
+	.mob-width94{ width: 94%;}
+	.mob-full-width{ width: 100%;}
+	.refree-details-heading{ font-size: 14px;}
+	.universityTypeCntr .form-panel-group .panel-default>.panel-heading .panel-title a{ font-size: 15px;}
+}

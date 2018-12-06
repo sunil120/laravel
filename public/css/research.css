@@ -1,0 +1,265 @@
+.research-cntr{
+	position: relative;
+	width: 100%;
+}
+.research-cntr .floating-element{
+	position: relative;
+}
+.research-cntr .floating-element .floating-span {
+    font-family: 'latomedium';
+    font-size: 15px;
+    color: #34495e;
+}
+.research-cntr .floating-element:focus-within .floating-span, .active-txt-label{
+  top: -8px !important;
+  left: 12px !important;
+  font-size: 12px !important;
+  opacity: 1;
+  background-color: #fff;
+  padding: 0px 5px 0px 5px;
+  font-family: 'latoregular' !important;
+  color: #9d9d9d !important;
+  line-height: 14px;
+}
+.research-result-cntr{
+  position: relative;
+  width: 100%;
+}
+.research-result-box{
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.research-result-box > .panel-heading{
+  background-color: rgba(84, 167, 218, .3) !important;
+}
+.research-result-box .panel-body{
+  padding: 20px 15px 10px 15px;
+}
+.research-result-box .panel-body .details{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.research-result-box .panel-body .details label{
+  color: #4a90e2;
+  font-family: 'latomedium';
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 0;
+}
+.research-result-box .panel-body .details span{
+  color: #000;
+  font-family: 'latoregular';
+  font-weight: 400;
+  font-size: 13px;
+}
+.map-existing-organization{
+  display: none;
+}
+
+/*New Css for iBridge Like Design Page starts here  */
+.searchResultData{
+  width: 100%;
+}
+.centerCntr {
+    margin: 0 auto;
+}
+.custom-accordion .panel-group .panel{ border-width: 2px;}
+.custom-accordion .panel-default{ border-color: #6cba42; }
+.custom-accordion .panel-group{ margin-bottom: 15px;}
+.custom-accordion .panel-heading{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    padding: 10px 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #fff !important;
+}
+.custom-accordion .panel-heading .name{
+  width: 150px;
+    min-height: 31px;
+    display: inline-block;
+    margin-left: 50px;
+    text-align: right;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: #4a90e2;
+    font-size: 13px;
+    line-height: 31px;
+}
+.custom-accordion .panel-heading .ars-no{
+  width: 100px;
+    min-height: 31px;
+    display: inline-block;
+    margin-left: 50px;
+    text-align: right;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 31px;
+}
+.custom-accordion .panel-heading .case-status{
+  width: 150px;
+    min-height: 31px;
+    display: inline-block;
+    margin-left: 50px;
+    text-align: right;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: #6cba42;
+    font-size: 13px;
+    line-height: 31px;
+}
+.custom-accordion .panel-heading .accordion-toggle{
+  position: relative;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  padding: 0;
+}
+.custom-accordion .panel-heading .accordion-toggle:before{
+  content: '';
+    position: absolute;
+    background-image: url("../img/icon-expanded.png");
+    top: 0px;
+    left: 0px;
+    width: 31px;
+    height: 31px;
+}
+.custom-accordion .panel-heading .accordion-toggle.collapsed:before{
+    content: '';
+    position: absolute;
+    background-image: url("../img/icon-collapsed.png");
+    top: 0px;
+    left: 0px;
+    width: 31px;
+    height: 31px;
+}
+.custom-accordion .panel-heading .accordion-toggle:after,
+.custom-accordion .panel-heading .accordion-toggle.collapsed:after{ content: "";}
+.details{ 
+  border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.details label, .details span{ display: block;}
+.details label{
+  color: #4a90e2;
+    font-family: 'latomedium';
+    font-weight: 500;
+    font-size: 14px;
+}
+.details span{
+  color: #000;
+  font-family: 'latoregular';
+  font-weight: 400;
+  font-size: 13px;
+}
+.border_none {
+    border: none !important;
+}
+.checksCntr h4{
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: #5d5d5d;
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'latolight';
+}
+.checksBlock{
+  padding: 10px;
+  border: 1px solid #6cba42;
+  margin-bottom: 10px;
+}
+.checksBlock h5{
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 0 5px 0;
+  border-bottom: 3px solid #6cba42;
+  display: inline-block;
+  font-family: 'latomedium';
+}
+/*.checksBlock label{
+  display: block;
+  margin: 0;
+  font-weight: 500;
+  font-family: 'latomedium';
+}*/
+.checksBlock p{ 
+  text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.checksBlock .fileContainer label{
+  padding: 8px 10px;
+  display: block;
+  background-color: #fff;
+  color: #55aadd;
+}
+.checksBlock .fileContainer label:hover{
+  background-color: #55aadd;
+  color: #fff;
+}
+/*.checksBlock .form-control{ height: 53px;}*/
+.black_btn {
+    border: 1px solid #000;
+    padding: 15px 15px !important;
+    background: #000 !important;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 15px;
+    min-width: 180px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+/*New Css for iBridge Like Design Page ends here */
+.docs-required-inline h4{ line-height: 26px;}
+
+
+/*Media Queries*/
+@media (min-width:991px) {
+  .custom-accordion .collapse{display: none;}
+  .custom-accordion .collapse.in{display: block;}
+}
+@media only screen and (max-width:767px) {
+  .custom-accordion .panel-heading .name{ margin-right: 0; text-align: left; }
+  .custom-accordion .panel-heading .ars-no{ margin-left: 20px; margin-right: 20px; text-align: left;}
+  .custom-accordion .panel-heading .case-status{ margin-right: 0; text-align: left;}
+}
+@media only screen and (max-width:600px) {
+  .mob-full-width{ width: 100%;}
+  .mob-pd-l15{ padding-left: 15px !important}
+  .custom-accordion .panel-heading .name{
+    width: 80%;
+    text-align: left;
+    min-height: auto;
+  }
+  .custom-accordion .panel-heading .ars-no{
+    width: 80%;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 22px;
+    margin-right: 0;
+    min-height: auto;
+  }
+  .custom-accordion .panel-heading .case-status{
+    width: 80%;
+    text-align: left;
+    line-height: 22px;
+    min-height: auto;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 480px){
+  .checksBlock label a{ word-break: break-all;}
+  .checksBlock .black_btn{ display: block;}
+}

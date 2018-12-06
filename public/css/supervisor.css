@@ -1,0 +1,1194 @@
+
+.supervisor-cntr-wrapper{
+    margin-top: 69px;
+}
+.supervisor-cntr-wrapper .content-heading{
+    padding: 15px 0 0 0;
+    margin: 0;
+}
+.clearfix{clear: both;}
+
+/*select box*/
+
+.supervisor-cntr-wrapper .custom-parent-Box form{
+    position: relative;
+}
+.custom-parent-Box .caret-icon {
+    position: absolute;
+    right: 15px;
+    top: 36%;
+    font-size: 11px;
+    color: #a1a1a1;
+}
+
+/*dashboard page*/
+.search {
+    float: left;
+}
+.search .search_form{
+    position: relative;
+    float: left;
+    width: 260px;
+    margin-right: 30px;
+}
+.search .search_form .searchTerm{
+    float: left;
+    width: 100%;
+    position: relative;
+    height: 40px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #000;
+}
+.search .search_form .searchButton {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 1px;
+    right: 1px;
+    border: 0;
+    background: white;
+    padding: 5px;
+    text-align: center;
+    color: #000;
+    font-size: 20px; 
+}
+
+.search-link{
+   font-size: 17px;
+   text-decoration: underline;
+}
+.dashboard-wrapper{
+    overflow:hidden;
+}
+.dashboard-column {
+    text-align: center;
+    padding: 0px;
+    min-height: 450px;
+}
+.dashboard-column h2 {
+    width: 100%;
+    padding: 10px;
+    background-color: #7fc241;
+    color: #fff;
+    font-size: 20px;
+    min-height: 70px;
+    font-family: latoregular;
+    border-radius: 5px;
+}
+.dashboard-column ul li a {
+    border-radius: 5px;
+    font-weight: 18px;
+    font-family: latoregular;
+}
+.dashboard-column ul li a:hover{
+    background-color: #fff !important;
+    text-decoration: none;
+}
+.dashboard1 .dashboard-column ul li a {
+    background-color: #03a9f4;
+    border: 2px solid #03a9f4;
+}
+.dashboard2 .dashboard-column ul li a {
+    background-color: #fd6231;
+    border: 2px solid #fd6231;
+}
+.dashboard3 .dashboard-column ul li a {
+    background-color: #9e9e9e;
+    border: 2px solid #9e9e9e;
+}
+.dashboard4 .dashboard-column ul li a {
+    background-color: #ffc107;
+    border: 2px solid #ffc107;
+}
+.dashboard5 .dashboard-column ul li a {
+    background-color: #1675c3;
+    border: 2px solid #1675c3;
+}
+.dashboard6 .dashboard-column ul li a {
+    background-color: #7f4ade;
+    border: 2px solid #7f4ade;
+}
+.dashboard1 .dashboard-column ul li a:hover {
+    color: #03a9f4;
+    border: 2px solid #03a9f4;
+}
+.dashboard2 .dashboard-column ul li a:hover{
+    color: #fd6231;
+    border: 2px solid #fd6231;
+}
+.dashboard3 .dashboard-column ul li a:hover {
+    color: #9e9e9e;
+    border: 2px solid #9e9e9e;
+}
+.dashboard4 .dashboard-column ul li a:hover {
+    color: #ffc107;
+    border: 2px solid #ffc107;
+}
+.dashboard5 .dashboard-column ul li a:hover {
+    color: #1675c3;
+    border: 2px solid #1675c3;
+}
+.dashboard6 .dashboard-column ul li a:hover {
+    color: #7f4ade;
+    border: 2px solid #7f4ade;
+}
+.supervisor-header{
+    overflow:hidden ;
+}
+.supervisor-header h3{
+    float: left;
+    font-family: latomedium;
+    padding-top: 0px;
+ 
+}
+.supervisor-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.supervisor-table table{
+    background-color: #fff;
+}
+
+.supervisor-table table tr th {
+    text-align: center;
+    vertical-align: middle !important;
+    font-family: latobold;
+    font-size: 16px;
+    background-color: #999;
+    color: white;
+
+}
+.supervisor-table table tr td {
+    vertical-align: middle;
+    word-wrap: break-word;
+    color: #37414c;
+}
+
+.table-width{     /* class for small table*/
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+/* work in progress*/
+.main-body .wip-heading{
+    font-family: 'latobold';
+    font-weight: 600;
+    color: #333;
+    font-size: 22px;
+}
+.main-body .wip-heading span{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'latomedium';
+}
+
+.wip-table thead tr th {
+    height: 55px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'latosemibold';
+    
+}
+.wip-table tbody tr td {
+    text-align: center;
+}  
+.supclient{
+    width: 18%;
+    position: relative;
+}
+.supclient .select2-container{
+    width: 100% !important;
+}  
+.date-to, .date-from, .session-date{
+    width: 10%;
+}
+.date-to input, .date-from input, .session-date input{
+    height: 42px;
+    border-radius: 0px;
+}
+.date-to, .session-date
+{
+    margin: 0 24px;
+}
+
+/*filteration bar*/
+
+.filteration-collapse-panel .panel-title a:focus, .filteration-collapse-panel .panel-title a:hover{
+    text-decoration: none !important;
+    color:#000 !important;
+}
+.filteration-collapse-panel .panel-default {
+    
+    background-color: #fff !important;
+}
+.filteration-collapse-panel .panel-default>.panel-heading{
+    border: 1px solid #7fc241 !important;
+    background-color: #fff !important;
+    padding: 0;
+}
+.filteration-collapse-panel .panel-heading{
+    position: relative;
+}
+.filteration-collapse-panel .panel-default>.panel-heading .panel-title a{ 
+    display: block; 
+    padding: 10px 15px;
+}
+.filteration-collapse-panel .panel-heading a:after {
+font-family: "FontAwesome";
+content: "\f056";
+position: absolute;
+right: 20px;
+font-size: 20px;
+font-weight: 400;
+top: 50%;
+line-height: 1;
+margin-top: -10px;
+}
+
+.filteration-collapse-panel .panel-heading a.collapsed:after {
+content: "\f055";
+}
+
+.filteration-box{
+    padding: 15px;
+    position: relative;
+}
+
+
+.ageing-date label, .view label, .receiving-source label{
+    margin-bottom: 0px;
+    font-size: 16px;
+    width: 16%;
+    vertical-align: top;
+}
+.ageing-date label:nth-child(1), .view label:nth-child(1), .receiving-source label:nth-child(1) {
+	width: 11%;
+    font-size: 16px;
+    font-family: latomedium;
+    vertical-align: top;
+}
+.link{
+	position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.link a{
+	font-size: 16px;
+    cursor: pointer;
+}
+/*deleted queue and escalated queue*/
+
+.sup-arsNumber .form-control{
+    height: 42px;
+    outline: none;
+    background-color: #fff;
+}
+.supervisor-button{
+	padding: 9px 25px;
+}
+/*edit case*/
+
+.edit-case-form-container h4{
+	
+    font-family: latobold;
+    margin: 0px;
+}
+.edit-case-form .supervisor-form-container{margin-top: 15px; margin-bottom:0px;}
+/*.edit-case-form .supervisor-form-container:nth-child(2),.edit-case-form .supervisor-form-container:nth-child(3), .edit-case-form .supervisor-form-container:nth-child(4) {margin-top: 0px; border: 0px;}
+.edit-case-form .supervisor-form-container:nth-child(4){margin-bottom: 20px;}*/
+
+.supform2{
+	border-left: 1px solid #ccc;
+}
+.sup-form-header{
+    padding: 15px 30px;
+    border-bottom: 1px solid #eae5e5;
+    text-align: left;
+}
+
+.form-button{
+    padding: 20px;
+    border-top: 1px solid #eae5e5;
+    overflow:hidden;
+}
+.supervisor-form{
+    padding: 15px 30px;
+}
+.supervisor-form .sidebar-img-popup{
+    top: 0;
+}
+.supervisor-form .DataCntr, 
+.supervisor-form .imgBoxCntr{
+    height: 50vh;
+}
+.supervisor-form .form-group{
+    position: relative;
+}
+.supervisor-form .form-group .control-label{ 
+    font-family: latomedium;
+    font-size: 14px;
+} 
+.supervisor-form .form-group .form-control{
+    width: 100%;
+}
+.supervisor-form .form-group .form-control, .supervisor-form .form-group .custom-parent-Box{
+    height: 44px;
+    text-align: left;
+}
+.supervisor-form .form-group textarea{
+    height: 90px !important;
+}
+.supervisor-form .form-group .custom-parent-Box .select2-container{ 
+ 	width: 100% !important;
+ }
+.supervisor-form .form-group .custom-parent-Box .select2-container + .caret-icon{
+    right: 30px;
+}
+ .supervisor-form-container{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px #9d9d9d;
+    border-top: 3px solid #7fc241;
+    margin: 50px auto;
+ }
+ .form-width{    /* class for small form*/
+    width: 60%;
+    margin: 50px auto;
+ } 
+
+
+ .form-group .radio-inline{
+    margin-bottom: 3px;
+    margin-right: 10px;
+} 
+.form-group .radio-inline input[type="radio"],
+.radio input[type="radio"]{
+    margin-top: 1px;
+}
+.supervisor-form .phone-number label{
+    width: 100%;
+}
+.supervisor-form .phone-number .custom-parent-Box{
+	width: 28%;
+    display: inline-block;
+    margin-right: 1%;
+} 
+.supervisor-form .phone-number .std-code{
+    width: 18%;
+    margin-right: 1%;
+    display: inline-block;
+}
+.supervisor-form .phone-number .mobile-num{
+    width: 66%;
+    display: inline-block;
+}
+.supervisor-form .phone-number .addMultipleTel{
+    position: absolute;
+    top: 32px;
+    right: 30px;
+    font-size: 20px;
+}
+.supervisor-form .father-name label{
+    width: 100%;
+}
+.supervisor-form .father-name .form-control{
+    display: inline-block;
+
+	width: 31% !important;
+	margin-right: 1%;
+
+}
+
+/*close case*/
+
+ .search-ars-button{
+    position: absolute;
+    right: 15px;
+    height: 44px;
+    top: 0px;
+    border-radius: 0;
+ }
+
+
+ /*case history*/
+ .case-history-button{
+ 	text-align: center;
+ }
+ .case-details .form-group{
+    font-size: 15px;
+ }
+ .case-details .form-group label{
+ 	font-family: latoregular;
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding-right: 5px;
+ }
+ .case-details .form-group span{
+ 	font-family: latobold;
+} 
+
+
+
+/*set priority*/
+
+.confirmation-message{
+	width: 50%;
+    margin: 20px auto;
+    padding: 9px;
+  
+}
+
+/*client priority matrix*/
+.client-priority-table tbody tr td:nth-child(1){
+    text-align: center;
+    vertical-align: top;
+}
+.client-priority-table tbody tr td input{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+/*pvt queue*/
+.searchArs input{
+	height: 42px;
+    border-radius: 0px;
+}
+.searchArs{
+	margin: 0 24px;
+	width: 12%;
+}
+
+
+
+/*put case on hold table*/
+
+.case-onhold-table tbody tr td input[type="text"]{
+	width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+.table-checkbox{
+	text-align: center;
+        width: 33px;
+}
+.table-checkbox .checkbox-inline{
+    display: inline;
+}
+
+
+
+
+/*put case onhold form and release from hold form*/
+ 
+.arsDetails .form-group .readable-input{
+	height: 30px !important;
+	border:none;
+}
+
+
+/*role selector and password change*/
+
+/*time management*/
+.agentId{
+	width: 10%;
+}
+.agentId input{
+	border-radius: 0px;
+	height: 42px;
+}
+
+
+.productivity-header .date-to{
+	margin-left: 24px;
+	margin-right: 0px;
+}
+
+
+
+/*real time head cound*/
+.real-time-header h3{
+	width: 60%;
+}
+
+
+
+/*tat time summary*/
+.time-summary-header .agentId{
+	margin-right: 24px;
+}
+
+.time-summary-filteration .link{
+	position: static;
+    margin-bottom: 10px;
+}
+
+
+/*user error report*/
+.user-error-header .searchArs{
+	margin-right: 0px;
+}
+
+
+
+/*quality report and field report*/
+
+.quality-report-header .role, .field-report-header .user{
+	margin-right: 24px;
+}
+.role, .user{
+	width: 12%;
+    position: relative;
+}
+.role .select2-container, .user .select2-container{
+	width: 100% !important;
+}
+
+
+/*sign off pending*/
+.edit-link{
+	text-align: center;
+}
+.edit-link a, .edit-link a:focus, .edit-link a:hover{
+	text-decoration: underline !important;
+    color: #217DD0;
+}
+
+/*edit signoff queue page*/
+.signoff-status .select2-container{
+	width: 188px !important;
+}
+.changeReason{
+	width: 271px;
+	border-radius: 0px;
+    height: 44px !important;
+}
+
+.editSignOffCntr .form-group{margin-bottom: 20px;}
+.editSignOffCntr .form-group textarea{width: 100%; height: 150px;}
+
+/*case check status*/
+.case-check-container{
+	overflow: hidden;
+}
+.case-check-container .supervisor-table{
+	width: 58%;
+}
+.check-comment textarea{
+    width: 60%;
+    float: left;
+    height: 70px;
+}
+.check-comment button{
+    margin-top: 15px;
+    float: right;
+}
+.additional-checks{
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 20px;
+
+}
+.additional-checks h4{
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    font-family: latobold;
+    color: white;
+    background-color: #7fc241;
+}
+.check-list{
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: #000;
+    height: 250px;
+}
+.check-list ul{
+    padding: 20px 60px;
+}
+.check-list li{
+    overflow:hidden;
+    padding: 5px 0;
+}
+.check-list li .add-check{
+    float: right;
+    color:#7fc241;
+    font-size: 18px
+}
+.check-list li a:hover, .check-list li a:focus{
+    color:#7fc241 !important;
+}
+.config-header h3{
+    width: 50%;
+}
+.configuration-screen-wrapper{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 1px 1px 5px #9d9d9d;
+    border-top: 3px solid #7fc241;
+    margin-bottom: 30px;
+}
+.configuration-list li label.checkbox-inline{
+    padding: 4px 20px;
+}
+.sub-heading{
+    padding-left: 40px;
+}
+.sub-heading-list{
+    padding-left: 30px;
+}
+
+.nidCheckBox{
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+.check-width{
+    width: 35%;
+    margin: 0 auto;
+    overflow:hidden;
+    margin-bottom: 10px;
+}
+.nidCheckBox ul{
+    overflow:hidden;
+}
+.nidCheckBox ul li{
+    margin: 6px 0;
+}
+.nidCheckBox ul li .check-sort{
+    float: right;
+    font-size: 16px;
+    color: #455262;
+}
+
+.check-count{
+    width: 30% !important;
+    text-align: center;
+}
+
+.uploadExcelFile .fileContainer .input{
+    display: inline;
+    margin-right: 5px;
+}
+
+.uploadExcelFile .fileContainer .suggest{
+    word-break: break-all;
+}
+.uploadExcelFile .fileContainer label{
+  background-color: #55aadd;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding: 5px 10px;
+  border: 2px solid #55aade;
+  transition: all 0.3s ease;
+  font-weight: 400;
+  cursor: pointer;
+}
+.uploadExcelFile .fileContainer label:hover{background-color: #ffffff;border: 2px solid #55aadd; color: #55aadd;}
+.uploadExcelFile .fileContainer span{
+  font-family: 'latoitalic';
+    font-size: 16px;  
+}
+.uploadExcelFile .fileContainer input[type="file"] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+/*custom css for case-summary-details starts here */
+.case-summary-details .supervisor-header{
+    overflow: unset;
+}
+.case-summary-details .supervisor-header h3{
+    float: none;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+.case-summary-details .supervisor-body{
+    padding: 15px;
+}
+.case-summary-details .supervisor-body .sup-form-header{
+    padding: 0 0 5px 0;
+    border-bottom: 1px solid #d3d3d3;
+}
+.case-summary-details .supervisor-body .sup-form-header h4{
+    font-family: 'latomedium';
+    color: #7ac545;
+}
+.case-summary-details .supervisor-header .case-details{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.case-summary-details .supervisor-body .supervisor-form{
+    padding: 10px 0 0 0;
+}
+.case-summary-details .supervisor-body .supervisor-form .form-group{
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.case-summary-details .supervisor-body .supervisor-form .form-group label{
+    margin-bottom: 0;
+    font-family: 'latobold';
+    float: left;
+    margin-right: 5px;
+}
+.case-summary-details .supervisor-body .supervisor-form .form-group span{
+    font-family: 'latoregular';
+    float: left;
+    width: 50%;
+    font-size: 13px;
+    word-break: break-word;
+}
+.case-summary-details .supervisor-body .supervisor-form .sup-add-check span{
+    font-family: 'Glyphicons Halflings';
+    float: none;
+    width: auto;
+    font-size: 13px;
+    word-spacing: -8px;
+}
+
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table{
+    margin-bottom: 0;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .dataTables_wrapper .dataTables_filter{
+    margin-bottom: 10px;
+    border: 1px solid #7ac545;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .dataTables_wrapper .dataTables_filter label{
+    margin-bottom: 0;
+    font-family: 'latobold';
+    font-size: 14px;
+    padding-left: 10px;
+    background: #e5e5e5;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .dataTables_wrapper .dataTables_filter input[type="search"]{
+    height: 34px;
+    border: 0;
+    padding-left: 10px;
+    border-left: 1px solid #7ac545;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table{
+    border: 0;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table thead tr th{
+    font-family: 'latoregular';
+    font-size: 14px;
+    background-color: #5d5d5d;
+    color: #fff;
+    font-weight: 400 !important;
+    padding: 8px 18px;
+    border-bottom: 1px solid #5d5d5d;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table thead tr th:first-child{
+    border-left: 1px solid #5d5d5d;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table thead tr th:last-child{
+    border-right: 1px solid #5d5d5d;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table tbody tr td{
+    width: 25%;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.dataTable{
+    border-collapse: separate;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.dataTable thead tr th,
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.dataTable tbody tr td{
+    border: 0;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.dataTable thead tr th:last-child,
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.dataTable tbody tr td:last-child{
+    border-right: 0;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.dataTable tbody tr td:nth-child(2),
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.dataTable tbody tr td:nth-child(3){
+    text-align: center;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.check-details-comments tbody tr td:last-child{
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.column5 thead tr th,
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.column5 tbody tr td{
+    width: 20%;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.column7{
+    table-layout: fixed;
+}
+
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.column7 thead tr th:first-child{width: 120px !important;}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.column7 thead tr th:nth-child(2){width: 120px !important;}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.column7 thead tr th:nth-child(3){width: 180px !important;}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.column7 thead tr th:nth-child(4){width: 100px !important;}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.column7 thead tr th:nth-child(5){width: 100px !important;}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.column7 thead tr th:nth-child(6){width: 80px !important;}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.column7 thead tr th:last-child{width: 200px !important;}
+
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .client-config-table.column7 tbody tr td{
+    text-align: center;
+}
+
+.user-error-table thead tr th:nth-child(3){
+    width: 100px;
+}
+.user-error-table tbody tr td{
+    word-break: break-word;
+}
+
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .dataTables_wrapper .dataTables_info{
+    height: 30px;
+    line-height: 30px;
+    padding-top: 0;
+    font-family: 'latobold';
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .dataTables_wrapper .dataTables_paginate{
+    padding-top: 0;
+    border: 1px solid #7ac545;
+    border-radius: 25px;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .dataTables_wrapper .dataTables_paginate .paginate_button{
+    padding: 4px 10px;
+    vertical-align: middle;
+    margin: 0;
+    border: 0;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .dataTables_wrapper .dataTables_paginate .paginate_button.previous{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background: #fff;
+    color: #000 !important;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .dataTables_wrapper .dataTables_paginate .paginate_button.next{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #fff;
+    color: #000;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    color: #7ac545 !important;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .dataTables_wrapper .dataTables_paginate span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .dataTables_wrapper .dataTables_paginate span .paginate_button{
+    width: 30px;
+    height: 30px;
+    line-height: 24px;
+    background: #ffffff;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    color: #000;
+    border-right: 1px solid #7ac545;
+    border-left: 1px solid #7ac545;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .dataTables_wrapper .dataTables_paginate span .paginate_button.current{
+    background: #7ac545;
+    color: #fff;
+}
+.case-summary-details .supervisor-body .supervisor-form .supervisor-table .dataTables_wrapper .dataTables_paginate span .paginate_button.current:hover{
+    color: #fff !important;
+}
+.case-summary-details .supervisor-body .supervisor-form .sidebar-img-popup-container{
+    margin-top: 0;
+}
+
+
+.case-summary-details .supervisor-form-container{
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    box-shadow: 1px 1px 5px #d3d3d3;
+    margin: 0 0 10px 0;
+}
+.case-summary-details .case-status{
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #7ac545;
+
+}
+/*custom css for case-summary-details ends here */
+
+/*custom css for role-selector-table starts here */
+.role-selector-table{
+    table-layout: fixed;
+    margin-bottom: 0;
+}
+.role-selector-table thead tr th{
+    text-align: center;
+    vertical-align: middle !important;
+    font-family: 'latoregular';
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border-bottom: 0;
+    font-weight: 400;
+}
+.role-selector-table thead tr th,
+.role-selector-table tbody tr td{
+    width: 25%;
+}
+.role-selector-table tbody tr td:first-child,
+.role-selector-table tbody tr td:last-child{
+    text-align: center;
+}
+.role-selector-table tbody tr td:nth-child(2) .users-role-column{
+    height: 87px;
+}
+.role-selector-table tbody tr td:nth-child(3) .users-shift-column{
+    margin: 0 auto;
+    max-width: 70px;
+}
+.role-selector-table tbody tr td:nth-child(3) .users-shift-column .radio input[type="radio"]{
+    margin-top: 3px;
+}
+
+/*custom css for role-selector-table ends here */
+
+/* New CSS By Brijesh as on (13.04.18) added for Billing & Supervisory Section (WIP) starts here */
+
+/* ===========================================================
+             CSS FOR PVT SUPERVISOR STARTS HERE            
+============================================================== */
+.select2-results__options li + li .select2-results__group {
+    border-bottom: 1px solid #ebeaea;
+    margin-bottom: 10px;
+}
+
+.new-supervisor .left-box {
+    border: 1px solid #e8e8e8;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, .1);
+    padding: 15px 0;
+    position: relative;
+    height: 100%;
+}
+
+.new-supervisor .left-box h2 {
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 0 15px;
+    padding: 10px 15px 18px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.new-supervisor .left-box .heading {
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    border-bottom: 0 none;
+    color: #333;
+}
+
+.new-supervisor .left-box ul {
+    margin-bottom: 0;
+    margin-right: 15px;
+}
+
+.new-supervisor .left-box ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #eeeeee;
+    padding-bottom: 10px;
+    color: #999;
+}
+
+.new-supervisor .left-box ul li:last-child {
+    margin-bottom: 0;
+}
+
+.new-supervisor .left-box ul li span {
+    width: 8px;
+    height: 8px;
+    background-color: #7bc157;
+    display: inline-block;
+    border-radius: 100%;
+    position: relative;
+    margin-right: 7px;
+}
+
+.new-supervisor .left-box .content-wrap {
+    height: 100%;
+    position: relative;
+    padding: 15px 0px 0 15px;
+}
+
+.new-supervisor .mCSB_inside > .mCSB_container {
+    margin-right: 0;
+}
+
+.new-supervisor .mCSB_scrollTools .mCSB_draggerRail {
+    width: 3px;
+    background-color: #e6e6e6;
+}
+
+.new-supervisor .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 7px;
+    background-color: #a3a3a3;
+}
+
+.new-supervisor .supervisor-table table tr td.alert-tag {
+    background-color: #f8b2b2;
+
+}
+.csis-rules-table{
+    table-layout: fixed;
+    margin-bottom: 10px;
+}
+.csis-rules-table thead tr th{
+    font-family: 'latoregular';
+    font-weight: 400;
+    background-color: #555;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+}
+.csis-rules-table thead tr th:first-child{width: 70px;}
+.csis-rules-table thead tr th:nth-child(2){width: 250px;}
+.csis-rules-table thead tr th:nth-child(3){width: 180px;}
+.csis-rules-table thead tr th:nth-child(4){width: 160px;}
+.csis-rules-table thead tr th:nth-child(5){width: 160px;}
+.csis-rules-table thead tr th:nth-child(6){width: 160px;}
+.csis-rules-table thead tr th:nth-child(7){width: 150px;}
+.csis-rules-table thead tr th:nth-child(8){width: 180px;}
+.csis-rules-table thead tr th:nth-child(9){width: 100px;}
+.csis-rules-table thead tr th:nth-child(10){width: 100px;}
+.csis-rules-table thead tr th:last-child{width: 80px;}
+
+.csis-rules-table tbody tr td{ text-align: center;}
+.csis-rules-table tbody tr td:nth-child(2){ text-align: left;}
+
+/* CSS FOR PVT SUPERVISOR ENDS HERE */
+/* New CSS By Brijesh as on (13.04.18) added for Billing & Supervisory Section (WIP) ends here */
+
+/* Large Screens */
+
+@media only screen and (max-width: 1200px) {
+    .dashboard-column h2 {
+        font-size: 20px;
+    }
+    .client-priority-table{
+		width: 100%;
+	}
+	.changeReason {
+    	width: 210px;
+	}
+    /*Delete Queue Top Sub Menubar Css on Medium Devices Starts Here*/
+    .supervisor-cntr-wrapper .topSubMenuCntr .delete-queue-page .menuItem:first-child .select2-container{
+        width: 180px !important;
+    }
+    .supervisor-cntr-wrapper .topSubMenuCntr .delete-queue-page .menuItem:nth-child(2) .select2-container{
+        width: 150px !important;
+    }
+    .supervisor-cntr-wrapper .topSubMenuCntr .delete-queue-page .zoomrangeSelector{
+        width: 210px;
+    }
+    .supervisor-cntr-wrapper .topSubMenuCntr .delete-queue-page .comment-box{
+        width: 165px;
+    }
+    /*Delete Queue Top Sub Menubar Css on Medium Devices Ends Here*/
+
+}
+/* Medium Screens */
+
+@media only screen and (max-width: 992px) {
+	.supervisor-table{
+		overflow-x: auto;
+	}
+	.supervisor-table table tr th {
+    	white-space: nowrap;
+	}
+    .productivity-table tbody tr:nth-child(1) td, .time-summary-table tbody tr:nth-child(1) td{
+        white-space: nowrap;
+
+    }
+    .dashboard-column ul li a {
+        font-size: 14px;
+    }
+    .supervisor-header h3 {
+    	font-size: 19px;
+    }	
+    .supclient{
+	    width: 22%;
+    }
+    .non-editable-form .form-group label:nth-child(1), .editable-form .form-group label:nth-child(1) {
+        width: 33%;
+    }
+    .non-editable-form .father-name .form-control, .editable-form .father-name .form-control {
+    	width: 19%;
+	}
+	.form-width{
+		width: 80%;
+    }
+    .client-priority-table tbody tr td input{
+    	width: 40%;
+    }
+    .date-to, .date-from, .agentId, .searchArs, .session-date {
+    	width: 15%;
+	}
+    .table-width{
+		width: 100%;
+	}
+	 
+ 	.time-summary-header .date-to, .time-summary-header .date-from, .time-summary-header .agentId{
+    	width: 11%;
+	}
+	.quality-report-header h3, .field-report-header h3 {
+    	width: 24%;
+	}
+    .check-list ul {
+        padding: 20px 30px;
+    }
+	
+}
+/* Tablet Screens */
+
+@media only screen and (max-width: 767px) {
+    
+    .search {
+        width: 220px;
+    }
+    .search .searchButton {
+        right: 40px;
+    }
+    .form-width{
+		width: 100%;
+    }
+    .case-check-container .supervisor-table {
+        width: 100%;
+        border:none;
+    }
+    .case-check-table, .additional-checks{
+        margin-bottom: 20px !important;
+    }
+}
+/* Small Screens */
+
+@media only screen and (max-width: 600px) {
+    
+	.case-details .form-group label{
+		width: 100%;
+	}
+    #contentCntr {
+         padding: 0px;
+    }	
+}
+/* Extra Small Screens */
+
+@media only screen and (max-width: 480px) {
+	.supervisor-form-heading h2{font-size: 22px;}
+}

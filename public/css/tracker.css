@@ -1,0 +1,117 @@
+.tracker-form-container{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 5px #9d9d9d;
+    border-top: 3px solid #7fc241;
+    margin: 25px auto;
+ }
+ .summary-option label.radio-inline{
+ 	margin-left: 10px;
+
+ }
+ .summary-type{
+ 	padding-left: 145px;
+ }
+/*select tracker appearence css*/
+ .tracker-appearence-table{padding: 15px 30px;}
+ .radio-box{text-align: center;}
+ .tracker-form-wizard{height: 88%;}
+ .tracker-button-container{
+    position: relative;
+    overflow: hidden;
+    padding: 10px 30px;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    height: 12%;}
+ .tracker-button-container .prevNextLink{
+    margin-top: 3px;
+    padding-bottom: 0px;
+    }
+    .tracker-button-container .prevNextLink #prev, .tracker-button-container .prevNextLink #next{
+	border: 1px solid #217DD0;
+    padding: 7px;
+    width: 86px;
+    text-align: center;
+    margin-left: 16px;
+    float: left;
+    }
+    .tracker-label{
+    	font-size: 17px;
+    	font-family: latobold;    }
+    .external-name{
+    	width: 50%;
+    }
+    .internal-name .checkbox{
+    	margin-bottom: 0px;
+    }
+    #trackerDetailCntr li, .tracker-field li{
+    	padding-left: 100px;
+        list-style-type: none;
+    }
+
+    .sub-checks{
+    	    padding-left: 21px;
+    }
+    .sub-checks .radio-inline{width: auto !important;}
+    .addFieldsBtn .fa-plus-circle, .addAgeingFormBtn .fa-plus-circle{
+     color: #80c242;
+    }
+    .addAgeingFormBtn, .addFieldsBtn{
+    	margin-left: 30px;
+    	margin-top:10px;
+    	margin-bottom: 10px;
+    }
+    .mCSB_container{
+    	overflow:auto;
+    }
+    .ageing-form{
+    	border-bottom:1px solid #ccc;
+    }
+    .candidateApplicationData h3{
+    	margin: 18px 0;
+    }
+    .required-data-type .radio-inline{
+    	width: auto !important;
+    	margin-right: 15px;
+    }
+    #cancelTracker, #saveTracker{
+        display: none;
+    }
+    .impNote{
+        margin: 15px 30px;
+    background-color: #7fc241;
+    color: #fff;
+    float: left;
+    padding: 20px;
+    }
+
+
+
+    @media only screen and (max-width: 1200px) {
+ 
+}
+/* Medium Screens */
+
+@media only screen and (max-width: 992px) {
+	.sub-checks .checkbox-inline{display: block;margin-left: 0px;}
+
+	
+}
+/* Tablet Screens */
+
+@media only screen and (max-width: 767px) {
+    
+}
+/* Small Screens */
+
+@media only screen and (max-width: 600px) {
+	.external-name{
+    	width: 100%;
+    }
+	
+}
+/* Extra Small Screens */
+
+@media only screen and (max-width: 480px) {
+	
+}

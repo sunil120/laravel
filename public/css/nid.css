@@ -1,0 +1,63 @@
+.nidHeader{
+	border-bottom: 1px solid #ded9d9;
+    padding-bottom:10px;
+}
+.nidHeader h4{
+	font-family: latomedium;
+}
+.nidFormCntr{
+    height: 89%;
+}
+
+.nid-button{
+	padding: 6px 25px;
+}
+.nidForm form .form-group label{
+	display: block;
+}
+.editNidFormBtn{
+	overflow: hidden;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ded9d9;
+}
+.nidFormSubmit{width: 100%; height:11%; right:0px; text-align:right; background-color: #334960;position: absolute; bottom: 0px; padding:10px 15px;}
+.fileUpload{margin-top: 10px;}
+.fileUpload input[type="file"]{
+    z-index: 999;
+    line-height: 0;
+    font-size: 50px;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    _cursor: hand;
+    margin: 0;
+    padding:0;
+    left:0;
+    top: 0;
+}
+
+.uploadDocLabel{
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+    text-align:center;
+    color:#fff;
+    display:block;
+    font-size:16px;
+    float: left;
+}
+#path{
+	border: none;
+    padding: 9px;
+    width: 50%;
+    float: left;
+}
+.manualCheck h4{
+	padding: 7px 0;
+    border-bottom: 1px solid #ded9d9;
+    margin-bottom: 10px;
+}
+.manualCheck .form-group textarea{
+	width: 100%;
+    height: 80px;
+}
